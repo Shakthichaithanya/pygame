@@ -106,6 +106,7 @@ while (run):
             enemyY[i] += enemyY_change[i]
             if (enemyY[i] == 480):
                 run = False;
+
     if bulletY <= 0:
         bulletY = 480
         bullet_state = "ready"
