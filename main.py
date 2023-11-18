@@ -71,6 +71,7 @@ def iscolision(x, y, z, a):
 
 
 run = True
+
 while (run):
     screen.fill((0, 0, 0))
     background(0, 0)
@@ -101,7 +102,7 @@ while (run):
             enemyY[i] += enemyY_change[i]
             if(enemyY[i]==480):
                 run = False;
-        elif enemyX[i] >= 736:
+        elif enemyX[i] >= 737:
             enemyX_change[i] = -4
             enemyY[i] += enemyY_change[i]
             if (enemyY[i] == 480):
